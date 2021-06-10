@@ -1,0 +1,70 @@
+
+$labelsBackground: #091921;
+$labelsText: #f5f6fa;
+
+.yourBirthdays{
+    max-width: 1000px;
+    margin: 100px auto 100px auto;
+    background: #b3d2ff;
+    padding: 25px;
+    border-radius: 10px;
+}
+
+.yourBirthdays .title::before{
+    content: '';
+    position: absolute;
+    height: 3px;
+    width: 15vw;
+    background: #1779ff;
+    left: 0;
+    bottom: 0;
+  }
+
+  .yourBirthdays ul{
+      display: flex;
+      flex-direction: column;
+      margin-bottom: 3rem;
+      
+  }
+
+  .birthday{
+      display: flex;
+      //border: 1px solid black;
+      margin-top: 1rem;
+      margin-right: 1.5rem;
+      //background: $labelsBackground;
+      color: $labelsBackground;
+      //padding: 20px;
+      font-size: 1.5rem;
+  }
+
+  .day{
+      height: 35px;
+      width: 35px;
+      border-radius: 50%;
+      border: 1px double $labelsBackground;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-right: 10px;
+      
+  }
+
+  .name{
+      padding-right: 10px;
+  }
+
+//   .thrash-btn{
+//     height: 25px;
+//     width: 25px;
+//     background: red;
+//     border-radius: 50%;
+//   }
+
+  .fa-times{
+      pointer-events: none;
+  }
+
+  .color{
+      content: " ";
+  }

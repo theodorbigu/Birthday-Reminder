@@ -1,0 +1,30 @@
+
+@import "./header";
+@import "./calendar";
+@import "./info";
+@import "./addNew";
+@import "./yourBirthdays";
+@import "./footer";
+@import "./deletePopup";
+
+
+$orangePeel: #FF8C00;
+$hotPink: #FF69B4;
+$royalBlue: #4169E1;
+
+
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body{
+    width: 100%;
+    background-image: url("../pictures/img-noise-361x370.png");
+}

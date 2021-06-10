@@ -1,0 +1,55 @@
+
+
+
+
+.info{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    max-width: 1000px;
+    background: #b3d2ff;
+    margin: 100px auto 100px auto;
+    padding: 25px;
+    border-radius: 10px;
+  }
+  
+  .infoColumn{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+  }
+  
+  .infoColumn p{
+    font-size: 1.5rem;
+    font-weight: bold;
+    position: relative;
+    margin-bottom: 20px;
+  }
+  
+  #total h4{
+    font-size: 4rem;
+  }
+  
+  #thisMonth h4{
+    font-size: 4rem;
+  }
+  
+  #thisWeek h4{
+    font-size: 4rem;
+  }
+  
+  #nextBirthday h4{
+    font-size: 3.5rem;
+  }
+  
+
+
+  
+@media (max-width: 800px){
+    .info{
+      flex-direction: column;
+      max-width: 80%;
+    }
+  }
+  
+  
