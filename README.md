@@ -1,0 +1,2 @@
+# Birthday-Reminder
+Birthday Reminder is one of my first projects. I tend to forget important birthdays easily so I created a web app similar to a calendar. You can add the birthdays of all the important people in your life and the website will store them in the local storage. This project only consists of HTML, SASS and vanilla JavaScript. It helped me have a better understanding of the HTMLCollection and all its methods.
